@@ -1,0 +1,100 @@
+[gd_scene load_steps=11 format=3 uid="uid://dkfoawjujy7n5"]
+
+[ext_resource type="Texture2D" uid="uid://njuoq88ctjkp" path="res://milky-way-2695569_1280.jpg" id="1_73jsr"]
+[ext_resource type="Texture2D" uid="uid://dbskqlfnqe137" path="res://pngimg.com - sun_PNG13424.png" id="2_6wfiv"]
+[ext_resource type="Texture2D" uid="uid://ctvmlflvr6eb1" path="res://earth-globe-global-warming-world-earth-png-73f7b150a809cbc5534f063c62cfcb79.png" id="3_ho65d"]
+[ext_resource type="Script" path="res://Rotate.gd" id="4_47wxl"]
+[ext_resource type="Texture2D" uid="uid://d008aktt3c5gp" path="res://png_mars_planet_6479.png" id="5_je15j"]
+[ext_resource type="Texture2D" uid="uid://d1tkmgcq7hjfl" path="res://mhc9e4862oqac2i8h1dkv2f341.png" id="6_l21x2"]
+[ext_resource type="Texture2D" uid="uid://cnm2hpq8ubh5e" path="res://4ess8ll3d65t0lahbg8oteclso-db53c07394fabd77a8eda8a72b7e9644.png" id="7_bseyb"]
+[ext_resource type="Texture2D" uid="uid://dlmav111em7yo" path="res://moon.png" id="7_ids5b"]
+[ext_resource type="Texture2D" uid="uid://j1xxiioqbfi4" path="res://pngwing.com.png" id="8_g5ntj"]
+[ext_resource type="Texture2D" uid="uid://bbm10w4wlbx3n" path="res://pngegg.png" id="10_1eh4o"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(576, 323.5)
+scale = Vector2(0.901562, 0.904167)
+texture = ExtResource("1_73jsr")
+
+[node name="Sun" type="Sprite2D" parent="."]
+position = Vector2(582, 315)
+scale = Vector2(0.152273, 0.152273)
+texture = ExtResource("2_6wfiv")
+
+[node name="Venus" type="Node2D" parent="Sun"]
+script = ExtResource("4_47wxl")
+rotation_speed = 0.05
+
+[node name="Venus" type="Sprite2D" parent="Sun/Venus"]
+position = Vector2(475.918, 0)
+scale = Vector2(0.390417, 0.390417)
+texture = ExtResource("6_l21x2")
+script = ExtResource("4_47wxl")
+rotation_speed = 0.002
+
+[node name="Mercury" type="Node2D" parent="Sun"]
+script = ExtResource("4_47wxl")
+rotation_speed = 0.02
+
+[node name="mercury" type="Sprite2D" parent="Sun/Mercury"]
+position = Vector2(893.469, 0)
+scale = Vector2(0.507908, 0.507908)
+texture = ExtResource("7_bseyb")
+script = ExtResource("4_47wxl")
+rotation_speed = 0.005
+
+[node name="Earth" type="Node2D" parent="Sun"]
+position = Vector2(-0.000244141, -6.56726)
+scale = Vector2(4.4898, 4.4898)
+script = ExtResource("4_47wxl")
+rotation_speed = 0.01
+
+[node name="Earth" type="Sprite2D" parent="Sun/Earth"]
+position = Vector2(362.746, 16.0895)
+scale = Vector2(0.0842288, 0.0842288)
+texture = ExtResource("3_ho65d")
+script = ExtResource("4_47wxl")
+
+[node name="Moon" type="Node2D" parent="Sun/Earth/Earth"]
+script = ExtResource("4_47wxl")
+rotation_speed = 0.007
+
+[node name="Moon" type="Sprite2D" parent="Sun/Earth/Earth/Moon"]
+position = Vector2(903.012, 17.3662)
+scale = Vector2(0.23317, 0.23317)
+texture = ExtResource("7_ids5b")
+
+[node name="mars" type="Node2D" parent="Sun"]
+position = Vector2(0.402588, 0)
+script = ExtResource("4_47wxl")
+rotation_speed = 0.008
+
+[node name="Mars" type="Sprite2D" parent="Sun/mars"]
+position = Vector2(2311.24, 78.806)
+scale = Vector2(0.420918, 0.420918)
+texture = ExtResource("5_je15j")
+script = ExtResource("4_47wxl")
+rotation_speed = 0.01
+
+[node name="jupier" type="Node2D" parent="Sun"]
+script = ExtResource("4_47wxl")
+rotation_speed = 0.004
+
+[node name="Jupiter" type="Sprite2D" parent="Sun/jupier"]
+position = Vector2(3152.24, 59.1046)
+scale = Vector2(1.58407, 1.58407)
+texture = ExtResource("8_g5ntj")
+script = ExtResource("4_47wxl")
+
+[node name="Europa" type="Node2D" parent="Sun/jupier/Jupiter"]
+position = Vector2(1.90735e-06, 4.14574)
+scale = Vector2(0.631285, 0.631285)
+script = ExtResource("4_47wxl")
+rotation_speed = 0.006
+
+[node name="europa" type="Sprite2D" parent="Sun/jupier/Jupiter/Europa"]
+position = Vector2(-6.56725, -623.881)
+scale = Vector2(0.343109, 0.343109)
+texture = ExtResource("10_1eh4o")
