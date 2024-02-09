@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bg8lckrpcvx5j"
-path="res://.godot/imported/Daco_4165800.png-e046e26c1fe78d6c6ff98b03aff6ec96.ctex"
+uid="uid://dlmav111em7yo"
+path="res://.godot/imported/moon.png-f18690361e082e6883bacd3af4112c25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Daco_4165800.png"
-dest_files=["res://.godot/imported/Daco_4165800.png-e046e26c1fe78d6c6ff98b03aff6ec96.ctex"]
+source_file="res://Moon/moon.png"
+dest_files=["res://.godot/imported/moon.png-f18690361e082e6883bacd3af4112c25.ctex"]
 
 [params]
 

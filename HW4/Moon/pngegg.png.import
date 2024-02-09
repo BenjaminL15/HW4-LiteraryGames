@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnm2hpq8ubh5e"
-path="res://.godot/imported/4ess8ll3d65t0lahbg8oteclso-db53c07394fabd77a8eda8a72b7e9644.png-386a08d661a77007d65c43de559650bf.ctex"
+uid="uid://bbm10w4wlbx3n"
+path="res://.godot/imported/pngegg.png-cfac7a620e25f17a9f17fa7490b499c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://4ess8ll3d65t0lahbg8oteclso-db53c07394fabd77a8eda8a72b7e9644.png"
-dest_files=["res://.godot/imported/4ess8ll3d65t0lahbg8oteclso-db53c07394fabd77a8eda8a72b7e9644.png-386a08d661a77007d65c43de559650bf.ctex"]
+source_file="res://Moon/pngegg.png"
+dest_files=["res://.godot/imported/pngegg.png-cfac7a620e25f17a9f17fa7490b499c1.ctex"]
 
 [params]
 

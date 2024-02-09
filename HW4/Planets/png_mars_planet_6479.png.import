@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctvmlflvr6eb1"
-path="res://.godot/imported/earth-globe-global-warming-world-earth-png-73f7b150a809cbc5534f063c62cfcb79.png-cf393dc2f77e728b84f73eda95133aa5.ctex"
+uid="uid://d008aktt3c5gp"
+path="res://.godot/imported/png_mars_planet_6479.png-d04cbce6e002ba505dc653b7799cbf34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://earth-globe-global-warming-world-earth-png-73f7b150a809cbc5534f063c62cfcb79.png"
-dest_files=["res://.godot/imported/earth-globe-global-warming-world-earth-png-73f7b150a809cbc5534f063c62cfcb79.png-cf393dc2f77e728b84f73eda95133aa5.ctex"]
+source_file="res://Planets/png_mars_planet_6479.png"
+dest_files=["res://.godot/imported/png_mars_planet_6479.png-d04cbce6e002ba505dc653b7799cbf34.ctex"]
 
 [params]
 
